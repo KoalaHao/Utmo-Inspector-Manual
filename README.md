@@ -98,6 +98,10 @@ To:
 public classMyEditor: UtmoEditor
 ```
 
+## Version Control
+
+Editor configurations are saved in the meta file, so "MyScript.cs" has its editor configuration stored in the "MyScript.cs.meta" file in the userdata section. Version control is supported, just commit and push the meta file, and the customized editor will be synchronized across the team.
+
 ## Support
 
 Issues : [https://github.com/KoalaHao/Utmo-Inspector-Manual/issues](https://github.com/KoalaHao/Utmo-Inspector-Manual/issues)
